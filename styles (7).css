@@ -1,0 +1,457 @@
+/* REUSABLE COMPONENTS */
+
+.row {
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+
+/*  GRID OF TWELVE  */
+
+.span-12-of-12 {
+	width: 100%;
+}
+
+.span-11-of-12 {
+	width: 91.53%;
+}
+
+.span-10-of-12 {
+	width: 83.06%;
+}
+
+.span-9-of-12 {
+	width: 74.6%;
+}
+
+.span-8-of-12 {
+	width: 66.13%;
+}
+
+.span-7-of-12 {
+	width: 57.66%; 
+}
+
+.span-6-of-12 {
+	width: 49.2%; 
+}
+
+.span-5-of-12 {
+	width: 40.73%; 
+}
+
+.span-4-of-12 {
+	width: 32.26%; 
+}
+
+.span-3-of-12 {
+	width: 23.8%;
+}
+
+.span-2-of-12 {
+	width: 15.33%; 
+}
+
+.span-1-of-12 {
+	width: 6.86%; 
+}
+
+/*  GROUPING  */
+
+.row {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+
+/*  GRID COLUMN SETUP */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		/*margin: 1% 0 1% 0%;*/
+        margin: 0;
+	}
+}
+
+/* You'll need prefixes. @-ms-viewport, @-o-viewport, etc... */
+@viewport {
+width: device-width;
+}
+
+@media (min-width: 600px) and (max-width: 780px) {
+    .title_box {
+        font-size: 1vw;
+    }
+}
+
+
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+    font-size: 16px;
+}
+
+
+
+html {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+}
+
+/* HEADER */
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("catdoglove.jpg");
+	height: 80vh;
+	background-size: 90%;
+	background-repeat: no-repeat;	
+	background-attachment: fixed;		
+	margin-left: 190px;
+	margin-right: 190px;
+	transform: translate(0, 15%);   
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;	
+    margin-bottom: -20px;
+}
+
+
+/* MAIN NAV */
+
+
+ ul {
+	list-style: none;	
+	margin-top: 60px;
+	margin-bottom: -40px;
+	text-align: center;
+	
+}
+
+ li {
+	display: inline-block;
+	letter-spacing: 0.188em;
+	font-size: 105%;
+	color: #009c0;
+	padding-right: 8.5em;
+	font-weight: 400;
+}
+
+ul:first-child {
+	margin-left: 4em;
+}
+
+.main-nav li:hover {
+	opacity: 0.5;
+	transition: all .2s ease;
+}
+
+#container {
+    display: none;
+    font-family: 'Lato', sans-serif;
+}
+
+
+h1 {
+	color: white;
+	line-height: 300%;
+	display: inline-block;
+	font-size: 5em;
+	font-weight: 300;
+	letter-spacing: 7px;
+	margin-top: 0;
+    display: none;
+
+}
+
+header i {
+	color: white;
+	margin-right: 50px;
+}
+
+
+
+h3 {
+	margin-top: 185px;
+	margin-bottom: 60px;
+	line-height: 200%;
+	margin-left: 250px;
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 100;
+	color: #8c8c8c;
+	font-size: 2em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	width: 70%;
+}
+
+
+
+.content img {
+	width: 100%;
+	height: 15em;
+	transform: scale(1);
+	transition: transform 0.5s, opacity 0.5s;	
+}
+
+.content img:hover {
+	opacity: 1;
+	transform: scale(1.05);
+}
+
+.fade i {
+	color: #9db2a5;
+	
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+
+/* TEXT BOXES */
+
+.content {
+	width: 85%;
+	background-color: #f3e9d2;
+	margin: 0 auto;
+}
+
+.box_1, .box_2, .box_3, .box_4, .box_5, .box_6 {
+	background-color: white;
+	height: 15em;
+}
+
+.box_1, .box_2 {
+	margin-top: 125px;
+}
+
+.box_3, .box_4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.box_5, .box_6 {
+	margin-top: 10px;
+	margin-bottom: 80px;	
+	
+}
+
+
+
+.content .row {
+	max-width: 85%;
+}
+
+
+h2 {
+	color: #9db2a5;
+	text-align: center;
+	display: block;	
+	font-size: 120%;	
+}
+
+h2 span {
+	font-size: 130%;
+	margin-right: 10px;
+}
+
+.testimonials {
+	width: 100%;
+	height: 100%;
+	margin: 50px auto 150px auto;
+	background-color: white;
+}
+
+.testparagraph {
+	font-size: 16px;
+	background-color: white;	
+	border-radius: 5px;	
+	text-align: center;	
+	margin-left: 70px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+.testimonials img {
+	height: 150px;
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+   
+    
+}
+
+#transform {
+        transform: scale(1);
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+#transform:hover {
+         opacity: 1;
+	transform: scale(1.25);
+}
+
+#heading {
+	font-size: 1.75rem;
+	color: #8c8c8c;
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Merriweather', sans-serif;
+	margin-top: 100px;
+	margin-bottom: 75px;
+	padding: 30px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	width: 90%;
+	text-align: center;
+	line-height: 200%;	
+}
+
+#footer {
+	width: 100%;
+	height: 13em;
+	background-color: #58504A;
+	color: white;
+	margin-left: 0;
+	padding-left: 0;
+	font-size: 80%;
+}
+
+#footer i {
+	margin-left: 7em;
+	text-align: center;
+	margin-top: 40px;
+	color: white;
+}
+
+#social_media li {
+	color: white;
+    
+       
+}
+
+
+.contact {
+	font-size: 120%;
+        margin-top: 25px;
+      
+
+}
+
+
+.email {
+	margin-top: 75px;
+	float: left;
+	
+}
+
+.copyright {
+	float: right;
+	margin-top: 75px;
+           
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		/*margin: 1% 0 1% 0%;*/
+        margin: 0;
+	}
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-12-of-12 {
+		width: 100%; 
+	}
+	.span-11-of-12 {
+		width: 100%; 
+	}
+	.span-10-of-12 {
+		width: 100%; 
+	}
+	.span-9-of-12 {
+		width: 100%; 
+	}
+	.span-8-of-12 {
+		width: 100%; 
+	}
+	.span-7-of-12 {
+		width: 100%; 
+	}
+	.span-6-of-12 {
+		width: 100%; 
+	}
+	.span-5-of-12 {
+		width: 100%; 
+	}
+	.span-4-of-12 {
+		width: 100%; 
+	}
+	.span-3-of-12 {
+		width: 100%; 
+	}
+	.span-2-of-12 {
+		width: 100%; 
+	}
+	.span-1-of-12 {
+		width: 100%; 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
