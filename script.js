@@ -8,15 +8,15 @@ $(document).ready(function() {
       
       
       if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+        if ($(this).css("opacity")==0) {$(this).fadeTo(500, 1);}
       } else { //object goes out of view (scrolling up)
-        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+        if ($(this).css("opacity")==1) {$(this).fadeTo(500, 0);}
       }
     });
   }).scroll(); //invoke scroll-handler on page-load
 });
     
-    $("h1").fadeIn(2000);
+    // $("h1").fadeIn(2000);
 
    
     
