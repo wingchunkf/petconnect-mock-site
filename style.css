@@ -1,48 +1,40 @@
-body {
-
-	
-	padding: 0;
-	box-sizing: border-box;	
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
+body {	
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;	  
 	font-size: 20px;
 	font-weight: 300;
+	padding: 0;
 	text-rendering: optimizeLegibility;
 }
-
 
 /* HEADER */
 
 .main_image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("catdoglove.jpg");
-	height: 80vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/catdoglove.jpg");
 	background-size: 90%;
 	background-repeat: no-repeat;	
-	background-attachment: fixed;		
-	margin-left: 190px;
-	margin-right: 190px;
-/*	transform: translate(0, 15%);  */ 
-	-webkit-background-size: cover;
+	background-attachment: fixed;
+	height: 80vh;
+	margin: 0 10rem;	
 	-moz-background-size: cover;
 	-o-background-size: cover;	
-
+	-webkit-background-size: cover;
 }
 
  ul {
 	list-style: none;	
-	margin-top: 60px;
 	margin-bottom: -40px;
-	text-align: center;
-	
+	margin-top: 60px;
+	text-align: center;	
 }
 
  li {
+ 	color: #009c0;
 	display: inline-block;
-	letter-spacing: 0.188em;
 	font-size: 105%;
-	color: #009c0;
-	padding-right: 8.5em;
 	font-weight: 400;
+	letter-spacing: 0.188em;
+	padding-right: 8.5em;
 }
 
 ul:first-child {
@@ -55,34 +47,30 @@ nav li:hover {
 }
 
 h1 {
-	color: white;
-	line-height: 300%;
+	color: white;	
 	display: inline-block;
 	font-size: 5em;
 	font-weight: 300;
 	letter-spacing: 7px;
-	margin-top: 0;
-    display: none;
-
+	line-height: 300%;
+	margin-top: 0;   
 }
 
 header i {
-	color: black;
+	color: white;
 	margin-right: 50px;
 }
 
-
-
 .heading {
-	padding: 1rem;
-	line-height: 200%;	
-	text-align: center;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	color: black;
 	font-family: 'Merriweather', sans-serif;
 	font-weight: 100;
-	color: black;
 	font-size: 2em;
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;	
+	line-height: 200%;	
+	padding: 1rem;
+	text-align: center;
 }
 
 .app_features img {	
@@ -102,28 +90,18 @@ header i {
 	margin-top: 20px;
 }
 
-
-
 /* TEXT BOXES */
-
-.
 
 .box_1, .box_2, .box_3, .box_4, .box_5, .box_6 {
 	
 	height: 15em;
 }
 
-
-
-
-
-
-
 h2 {
 	color: #9db2a5;
-	text-align: center;
 	display: block;	
-	font-size: 120%;	
+	font-size: 120%;
+	text-align: center;	
 }
 
 h2 span {
@@ -132,83 +110,57 @@ h2 span {
 }
 
 .testimonials {
-	width: 100%;
+	background-color: white;	
 	height: 100%;
 	margin: 50px auto 150px auto;
-	background-color: white;
+	width: 100%;
 }
 
 .test_paragraph {
-	font-size: 16px;
 	background-color: white;	
 	border-radius: 5px;	
-	text-align: center;	
-	margin-left: 70px;
 	box-shadow: 10px 10px 5px #888888;
+	font-size: 16px;	
+	text-align: center;	
+	margin-right: 15px;	
 }
 
 .testimonials img {
-	height: 150px;	
+	border-radius: 5px; 
 	display: block;
-	margin: 20px auto 40px auto;	
-	border-radius: 5px;  
+	height: 150px;	
+	margin: 20px auto 40px auto;		 
 }
 
 #transform {
-        transform: scale(1);
+    transform: scale(1);
 	transition: transform 0.5s, opacity 0.5s;
 }
 
 #transform:hover {
-         opacity: 1;
+    opacity: 1;
 	transform: scale(1.25);
 }
 
 footer {
-	margin-right: -15px;
-	margin-left: -15px;
-	height: 13em;
 	background-color: #58504A;
 	color: white;
-
 	font-size: 80%;
-
+	height: 13em;
+	margin-right: -15px;
+	margin-left: -15px;
 }
-
-/*footer i {
-	margin-left: 7em;
-	text-align: center;
-	margin-top: 40px;
-	color: white;
-}*/
 
 #social_media li {
-	color: white;
-    
-       
+	color: white; 
 }
-
 
 .contact p {
 	font-size: 120%;
-        margin-top: 25px;
-      
-
+    margin-top: 25px;    
 }
 
 
-.email {
-	margin-top: 75px;
-	float: left;
-	
-}
-
-/*.copyright {
-	float: right;
-	margin-top: 75px;
-           
-}
-*/
 
 
 
