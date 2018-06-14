@@ -7,13 +7,13 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
 		<script src="https://use.fontawesome.com/90285934bc.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="grid.css">
-		<link rel="stylesheet" type="text/css" href="normalize.css">
-		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+			<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+		
 	</head>
 	<body>
-
-		<nav class="main-nav">
+		
+		<nav class="my-5">
 			<ul>
 				<a><li>About</li></a>
 				<a><li>How does it work?</li></a>
@@ -23,84 +23,88 @@
 			</ul>
 		</nav>
 
-	<section class="main_image">
-		<div class="row">
-			<div class="title_box">
-				<h1><i class="fa fa-paw fa-2x"></i>PetConnect</h1>
+		<div class="container-fluid" id="app">
+			<div class="main_image">
 			</div>
-		</div>
-	</section>
+			<div class="row">
+				<div class="col">
+					<h3 class="heading my-5">With so many great features, people love PetConnect. <br>And the best part is, it's completely free!</h3>
+				</div>
+			</div>
+		</section>
+		
+		<section class="app_features text-center mt-5">
+			<div class="row d-flex justify-content-center">
+				<div class="col-7">
+					<h2 class="mt-5"><i class="fa fa-users fa-2x mr-lg-4" aria-hidden="true"></i>Connect with other pet parents</h2>
+				</div>
+				<div class="col-5">
+					<img src="img/couplelaptop-min.jpeg" alt="couple with laptop">
+				</div>
+			</div>
 
-	<div class="why_join">
-		<h3>With so many great features, people love PetConnect. <br>And the best part is, it's completely free!</h3>
-	</div>
-	<div class="content">
-		<div class="row">
-			<div class="col span-4-of-12 box_1 fade">
-				<img src="couplelaptop-min.jpeg" alt="couple with laptop">
+			<div class="row d-flex justify-content-center py-3">
+				<div class="col-5">
+					<img src="img/womananddog-min.jpeg" alt="woman and dog">
+				</div>
+				<div class="col-7">
+					<h2 class="mt-5"><i class="fa fa-camera fa-2x mr-lg-4" aria-hidden="true"></i>Post your favorite pic</h2>
+				</div>
 			</div>
-			<div class="col span-7-of-12 box_2 fade">
-				<i class="fa fa-users fa-2x" aria-hidden="true"></i>
-				<h2><span>Connect</span> with other pet parents</h2>
+
+			<div class="row d-flex justify-content-center py-3">
+				<div class="col-7">
+					<h2 class="mt-5"><i class="fa fa-bath fa-2x mr-lg-4" aria-hidden="true"></i>Share pet care tips</h2>
+				</div>
+				<div class="col-5">
+					<img src="img/petcare-min.jpg" alt="pet care supplies">
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col span-7-of-12 box_3 fade">
-				<i class="fa fa-camera fa-2x" aria-hidden="true"></i>
-				<h2><span>Post</span> your favorite pics</h2>
+		</section>
+		
+		<section class="testimonials">
+			<div class="row d-flex justify-content-center my-5">
+				<div class="col">
+					<h3 class="heading mx-auto">What people have to say about PetConnect</h3>
+				</div>
 			</div>
-			<div class="col span-4-of-12 box_4 fade">
-				<img src="womananddog-min.jpeg" alt="woman and dog">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col span-4-of-12 box_5 fade">
-				<img src="petcare-min.jpg" alt="pet care supplies">
-			</div>
-			
-			
-			<div class="col span-7-of-12 box_6 fade">
-				<i class="fa fa-bath fa-2x" aria-hidden="true"></i>
-				<h2><span>Share</span> pet care tips</h2>
-			</div>
-		</div>
-	</div>
-	<div class="testimonials img">
-		<div class="row">
-			<p id="heading">What people have to say about PetConnect</p>
-			<div class="col span-3-of-12 test_paragraph">
-				<img src="womangreenhair.jpg" id="transform">
-				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				</p>
-			</div>
-			<div class="col span-3-of-12 test_paragraph">
-				<img src="sommerdtcrop.jpg" id="transform">
-				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				</p>
-			</div>
-			
-			<div class="col span-3-of-12 test_paragraph">
+			<div class="row">
+				<div class="col test_paragraph ml-lg-1">
+					<img src="img/womangreenhair.jpg" id="transform">
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					</p>
+				</div>
+				<div class="col test_paragraph">
+					<img src="img/sommerdtcrop.jpg" id="transform">
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					</p>
+				</div>
 				
-				<img src="smilingwoman.jpeg" id="transform">
-				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				</p>
+				<div class="col test_paragraph">
+					<img src="img/smilingwoman.jpeg" id="transform">
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					</p>
+				</div>
 			</div>
-		</div>
-	</div>
-	<footer>
-		<ul>
-			<li><i class="fa fa-facebook" aria-hidden="true">  Facebook</i></li>
-			<li><i class="fa fa-pinterest" aria-hidden="true">  Pinterest</i></li>
-			<li><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</li>
-			<li><i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</li>
-		</ul>
+		</section>
+		<footer>
+			<div class="row">
+				<ul>
+					<li><i class="fa fa-facebook" aria-hidden="true">  Facebook</i></li>
+					<li><i class="fa fa-pinterest" aria-hidden="true">  Pinterest</i></li>
+					<li><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</li>
+					<li><i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</li>
+				</ul>
+			</div>
+			<div class="row">
+				<p>Contact us at info@petconnect.com</p>
+			</div>
+			<footer>
+				
+			</div>			
 		
-		
-		<div>
-			<p>Contact us at info@petconnect.com</p>
-			<p>&copy2017 Christine Bergman</p>
-		</div>
-	<footer>
-	<script src="script.js"></script>
-</body>
-</html>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+			<script src="script.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+		</body>
+	</html>
