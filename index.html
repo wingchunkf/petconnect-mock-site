@@ -16,16 +16,15 @@
 		
 		<nav class="my-5">
 			<ul>
-				<a><li>About</li></a>
-				<a><li>How does it work?</li></a>
-				<a><li>Contact</li></a>
-				<a><li id="login">Login</li></a>
-				<a><li id="signup">Sign Up</li></a>
+			
+				<a href="#about"><li>How does it work?</li></a>
+				<a href="#testimonials"><li>Testimonials</li></a>
+				<a href="#contact"><li>Contact</li></a>			
 			</ul>
 		</nav>
 
 		<div class="container-fluid" id="app">
-			<div class="main_image">
+			<div class="main_image">	
 			</div>
 			<div class="row">
 				<div class="col">
@@ -34,10 +33,10 @@
 			</div>
 		</section>
 		
-		<section class="app_features mx-auto text-center mt-5">
+		<section class="app_features mx-auto text-center mt-5" id="about">
 			<div class="row d-flex justify-content-center pt-5">
-				<div class="col-lg-6">
-					<h2 class="mt-5 pt-4 pb-5"><i class="fa fa-users fa-2x mr-lg-4" aria-hidden="true"></i>Connect with other pet parents</h2>
+				<div class="col-lg-7">
+					<h2 class="mt-5 pt-4 pb-5"><i class="fa fa-users fa-2x ml-lg-4" aria-hidden="true"></i>Connect with other pet parents</h2>
 				</div>
 				<div class="col-lg-5">
 					<img src="img/couplelaptop-min.jpeg" alt="couple with laptop" class="pr-lg-4">
@@ -63,14 +62,14 @@
 			</div>
 		</section>
 		
-		<section class="testimonials">
+		<section class="testimonials" id="testimonials">
 			<div class="row d-flex justify-content-center my-5">
 				<div class="col-lg">
 					<h3 class="heading mx-auto">Click on the paw to see what people have to say about PetConnect</h3>
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row" >
 				<div class="col-lg test_paragraph ml-lg-1">
 					<img src="img/womangreenhair.jpg" class="mt-5" class="transform">
 					<i  @click="showOne = !showOne" class="fa fa-paw fa-3x"></i>	
@@ -104,14 +103,18 @@
 					<li><i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</li>
 				</ul>
 			</div>
-
-				<p class="mx-auto">Contact us at info@petconnect.com</p>
-		
+			
+		</div>
 			<footer>
+
 				
+			</div>
+			
+					<div class="text-center pt-5" id="contact">
+				<p>Contact us at info@petconnect.com</p>
 			</div>	
 
-				<script>
+			<script>
 				new Vue({
 					el: '#app',
 					data: {

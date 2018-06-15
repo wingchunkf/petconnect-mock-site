@@ -17,8 +17,19 @@ body {
 	height: 80vh;
 	margin: 0 10rem;	
 	-moz-background-size: cover;
-	-o-background-size: cover;	
+	-o-background-size: cover;
+	position: relative;	
 	-webkit-background-size: cover;
+	z-index: 999;
+}
+
+li .login_modal {
+	height: 80vh;
+	background-color: gray;
+	margin: 0 10rem;
+	display: none;
+	position: relative;
+	z-index: 1;
 }
 
  ul {
@@ -31,10 +42,10 @@ body {
  li {
  	color: #009c0;
 	display: inline-block;
-	font-size: 105%;
+	font-size: 120%;
 	font-weight: 400;
 	letter-spacing: 0.188em;
-	padding-right: 8.5em;
+	padding-right: 2.5rem;
 }
 
 ul:first-child {
@@ -92,8 +103,8 @@ header i {
 }
 
 .app_features h2 {
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
 }
 
 .fade i {
@@ -142,6 +153,12 @@ h2 {
 	height: 28rem;
 }
 
+.testimonial_text {
+	background: white;
+	border-radius: 5px;
+	color: #58504a;
+}
+
 .test_paragraph i {
 	color: white;
 }
@@ -173,7 +190,15 @@ footer {
 	margin-left: -15px;
 }
 
-@media screen and (max-width: 786px) {
+
+
+@media screen and (max-width: 992px) {
+	.main_image {
+	width: 100%;
+	margin: 1rem 0;
+	height: 40vh;
+}
+
 footer > ul > li {
 	display: block;
 
