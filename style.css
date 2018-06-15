@@ -205,6 +205,12 @@ footer > ul > li {
 }
 }
 
+@media screen and (max-width: 768px) {
+	.main_image {
+		display: none;
+	}
+}
+
 
 
 
