@@ -171,15 +171,19 @@ footer li:hover, #contact:hover {
 
 @media screen and (max-width: 992px) {
 	.main_image {
-	width: 100%;
-	margin: 1rem 0;
-	height: 40vh;
+		width: 100%;
+		margin: 1rem 0;
+		height: 40vh;
+	}
+
+	.social_media {
+		font-size: 100%;		
 	}
 }
 
 @media screen and (max-width: 1024px) {
-		footer > ul > li {
-	display: block;
+	footer > ul > li {
+		display: block;
 	}
 }
 
