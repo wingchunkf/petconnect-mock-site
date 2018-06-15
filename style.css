@@ -104,7 +104,7 @@ h2 {
 }
 
 .test_paragraph {
-	background-color: #5c755e;
+	background-color: #B7C8B6;
 	border-radius: 5px;	
 	box-shadow: 10px 10px 5px #888888;
 	color: white;
@@ -138,8 +138,8 @@ h2 {
 }
 
 i {
-	color: white;
 	border: 1px solid ##5c755e;
+	color: white;	
 }
 
 /* FOOTER */
