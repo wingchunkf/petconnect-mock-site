@@ -7,30 +7,7 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-/* HEADER */
-
-.main_image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/catdoglove.jpg");
-	background-size: 90%;
-	background-repeat: no-repeat;	
-	background-attachment: fixed;
-	height: 80vh;
-	margin: 0 10rem;	
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	position: relative;	
-	-webkit-background-size: cover;
-	z-index: 999;
-}
-
-li .login_modal {
-	height: 80vh;
-	background-color: gray;
-	margin: 0 10rem;
-	display: none;
-	position: relative;
-	z-index: 1;
-}
+/* NAVBAR */
 
  ul {
 	list-style: none;	
@@ -52,24 +29,23 @@ ul:first-child {
 	margin-left: 4em;
 }
 
-nav li:hover {
+nav li a:hover {
 	opacity: 0.5;
 	transition: all .2s ease;
 }
 
-h1 {
-	color: white;	
-	display: inline-block;
-	font-size: 5em;
-	font-weight: 300;
-	letter-spacing: 7px;
-	line-height: 300%;
-	margin-top: 0;   
-}
+/* HEADER */
 
-header i {
-	color: white;
-	margin-right: 50px;
+.main_image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/catdoglove.jpg");
+	background-size: 90%;
+	background-repeat: no-repeat;	
+	background-attachment: fixed;
+	height: 80vh;
+	margin: 0 10rem;	
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
 }
 
 .heading {
@@ -83,6 +59,8 @@ header i {
 	padding: 1rem;
 	text-align: center;
 }
+
+/* APP FEATURES */
 
 .app_features {
 	background-color: #ebe9e7;
@@ -107,19 +85,7 @@ header i {
 	border-bottom: 3px solid white;
 }
 
-.fade i {
-	color: #9db2a5;	
-	margin-left: 25px;
-	margin-top: 20px;
-}
-
-/*span {
-	border: 4px double white;
-
-	padding: 1.75rem;
-}
-*/
-
+/* TESTIMONIALS */
 
 
 h2 {
@@ -129,11 +95,6 @@ h2 {
 	font-size: 100%;
 	text-align: center;	
 }
-
-/*h2 span {
-	font-size: 130%;
-	margin-right: 10px;
-}*/
 
 .testimonials {
 	background-color: white;	
@@ -181,6 +142,8 @@ i {
 	border: 1px solid ##5c755e;
 }
 
+/* FOOTER */
+
 footer {
 	background-color: #58504A;
 	color: white;
@@ -190,19 +153,34 @@ footer {
 	margin-left: -15px;
 }
 
+footer li:hover, #contact:hover {
+	opacity: 0.5;
 
+}
+
+.social_media {
+	font-size: 140%;
+
+}
+
+#contact {
+	font-size: 200%;
+}
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 992px) {
 	.main_image {
 	width: 100%;
 	margin: 1rem 0;
 	height: 40vh;
+	}
 }
 
-footer > ul > li {
+@media screen and (max-width: 1024px) {
+		footer > ul > li {
 	display: block;
-
-}
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -210,15 +188,6 @@ footer > ul > li {
 		display: none;
 	}
 }
-
-
-
-
-.social_media {
-	font-size: 140%;
-
-}
-
 
 
 
