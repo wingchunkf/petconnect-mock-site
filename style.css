@@ -19,6 +19,8 @@ body {
 	-webkit-background-size: cover;
 }
 
+/* HEADER */
+
 header {
 	border-top: 15px #b7c8b6 double;
 	border-bottom: 15px #b7c8b6 double;
@@ -81,8 +83,7 @@ header {
 }
 
 /* TESTIMONIALS */
-
-
+  
 h2 {
 	color: #58504a;
 	display: block;	
@@ -149,7 +150,6 @@ footer {
 
 footer li:hover, #contact:hover {
 	opacity: 0.5;
-
 }
 
 .social_media li {
@@ -164,18 +164,6 @@ footer li:hover, #contact:hover {
 }
 
 /* MEDIA QUERIES */
-
-@media screen and (max-width: 992px) {
-	.main_image {
-		width: 100%;
-		margin: 1rem 0;
-		height: 40vh;
-	}
-
-	.social_media {
-		font-size: 100%;		
-	}
-}
 
 @media screen and (max-width: 1024px) {
 	footer > ul > li {
