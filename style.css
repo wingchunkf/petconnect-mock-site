@@ -15,12 +15,20 @@ body {
 	background-repeat: no-repeat;	
 	background-attachment: fixed;
 	height: 80vh;
-	margin: 0 10rem;	
+	margin: 0 10rem;
+	margin-bottom: 3.5rem;	
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	position: relative;	
 	-webkit-background-size: cover;
 	z-index: 999;
+}
+
+header {
+	border-top: 15px #b7c8b6 double;
+	border-bottom: 15px #b7c8b6 double;
+	font-family: 'Merriweather', sans-serif;
+		margin-bottom: 6rem;
 }
 
 li .login_modal {
@@ -39,22 +47,22 @@ li .login_modal {
 	text-align: center;	
 }
 
- li {
- 	color: #009c0;
+
+
+.header-links li  {
 	display: inline-block;
-	font-size: 120%;
-	font-weight: 400;
-	letter-spacing: 0.188em;
-	padding-right: 2.5rem;
+	letter-spacing: 3px;
+	padding: 2.5rem 3.5rem;
+
 }
 
-ul:first-child {
-	margin-left: 4em;
+.header-links a {
+	color: #58504a;
+	font-size: 170%;	
 }
 
-nav li:hover {
+.header-links a:hover {
 	opacity: 0.5;
-	transition: all .2s ease;
 }
 
 h1 {
