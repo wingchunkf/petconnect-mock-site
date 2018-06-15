@@ -7,35 +7,6 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-
-
-/* ul {
-	list-style: none;	
-	margin-bottom: -40px;
-	margin-top: 60px;
-	text-align: center;	
-}
-
- li {
- 	color: #009c0;
-	display: inline-block;
-	font-size: 120%;
-	font-weight: 400;
-	letter-spacing: 0.188em;
-	padding-right: 2.5rem;
-}
-
-ul:first-child {
-	margin-left: 4em;
-}
-
-nav li a:hover {
-	opacity: 0.5;
-	transition: all .2s ease;
-}*/
-
-/* HEADER */
-
 .main_image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/catdoglove.jpg");
 	background-size: 90%;
@@ -86,17 +57,17 @@ header {
 
 .app_features {
 	background-color: #ebe9e7;
-	width: 80%;
 	color: #B7C8B6;
 	font-weight: bold;
 	text-shadow: 1px 1px #888;
+	width: 80%;
 }
 
 .app_features img {	
 	height: 15em;
-	width: 80%;
 	transform: scale(1);
 	transition: transform 0.5s, opacity 0.5s;	
+	width: 80%;
 }
 
 .app_features img:hover {
@@ -105,15 +76,14 @@ header {
 }
 
 .app_features h2 {
-	border-top: 3px solid white;
 	border-bottom: 3px solid white;
+	border-top: 3px solid white;	
 }
 
 /* TESTIMONIALS */
 
 
 h2 {
-
 	color: #58504a;
 	display: block;	
 	font-size: 100%;
@@ -172,7 +142,7 @@ footer {
 	background-color: #58504A;
 	color: white;
 	font-size: 80%;
-	height: 13em;
+	height: 12em;
 	margin-right: -15px;
 	margin-left: -15px;
 }
@@ -182,13 +152,15 @@ footer li:hover, #contact:hover {
 
 }
 
-.social_media {
-	font-size: 140%;
-
+.social_media li {
+	display: inline-block;
+	font-size: 160%;
+	list-style: none;
+	padding-right: 2rem;
 }
 
 #contact {
-	font-size: 200%;
+	font-size: 200%;	
 }
 
 /* MEDIA QUERIES */
@@ -214,6 +186,14 @@ footer li:hover, #contact:hover {
 @media screen and (max-width: 768px) {
 	.main_image {
 		display: none;
+	}
+
+	ul .social_media {
+		margin-top: 1rem;
+	}
+
+	.social_media li {
+		display: block;
 	}
 }
 
