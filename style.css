@@ -28,7 +28,7 @@ header {
 	border-top: 15px #b7c8b6 double;
 	border-bottom: 15px #b7c8b6 double;
 	font-family: 'Merriweather', sans-serif;
-		margin-bottom: 6rem;
+	margin: 4rem 0 6rem 0;
 }
 
 li .login_modal {
@@ -47,13 +47,10 @@ li .login_modal {
 	text-align: center;	
 }
 
-
-
 .header-links li  {
 	display: inline-block;
 	letter-spacing: 3px;
 	padding: 2.5rem 3.5rem;
-
 }
 
 .header-links a {
@@ -121,15 +118,6 @@ header i {
 	margin-top: 20px;
 }
 
-/*span {
-	border: 4px double white;
-
-	padding: 1.75rem;
-}
-*/
-
-
-
 h2 {
 
 	color: #58504a;
@@ -137,11 +125,6 @@ h2 {
 	font-size: 100%;
 	text-align: center;	
 }
-
-/*h2 span {
-	font-size: 130%;
-	margin-right: 10px;
-}*/
 
 .testimonials {
 	background-color: white;	
@@ -198,8 +181,6 @@ footer {
 	margin-left: -15px;
 }
 
-
-
 @media screen and (max-width: 992px) {
 	.main_image {
 	width: 100%;
@@ -210,11 +191,8 @@ footer {
 footer > ul > li {
 	display: block;
 
+	}
 }
-}
-
-
-
 
 .social_media {
 	font-size: 140%;
