@@ -7,9 +7,9 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-/* NAVBAR */
 
- ul {
+
+/* ul {
 	list-style: none;	
 	margin-bottom: -40px;
 	margin-top: 60px;
@@ -32,7 +32,7 @@ ul:first-child {
 nav li a:hover {
 	opacity: 0.5;
 	transition: all .2s ease;
-}
+}*/
 
 /* HEADER */
 
@@ -46,6 +46,28 @@ nav li a:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
+}
+
+header {
+	border-top: 15px #b7c8b6 double;
+	border-bottom: 15px #b7c8b6 double;
+	font-family: 'Merriweather', sans-serif;
+	margin: 4rem 0 6rem 0;
+}
+
+.header-links li {
+	display: inline-block;
+	letter-spacing: 3px;
+	padding: 2.5rem 3.5rem;
+}
+
+.header-links a {
+	color: #58504a;
+	font-size: 170%;
+}
+
+.header-links a:hover {
+	opacity: 0.5;
 }
 
 .heading {
