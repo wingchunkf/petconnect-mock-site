@@ -65,7 +65,9 @@ nav li a:hover {
 .app_features {
 	background-color: #ebe9e7;
 	width: 80%;
-	color: #5c755e;
+	color: #B7C8B6;
+	font-weight: bold;
+	text-shadow: 1px 1px #888;
 }
 
 .app_features img {	
